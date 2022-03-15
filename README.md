@@ -9,9 +9,11 @@ i used python and scikit -learn to predict credit risk ,compare the strengths an
 
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.after  employ different techniques to train and evaluate models with unbalanced classes we got this results:
 
-Technique | | Accuracy| Precision |Recall (Sensitivity)| F1 Score|
---- | --- | --- | --- |--- |--- |--- | --- |--- |--- |--- | --- |
-Naive Random Oversampling | 301 | 283 | 290 | 286 | 
-SMOTE Oversampling | 301 | 283 | 290 | 286 | 
-UndersaCombination (Over and Under) Sampling 301 | 283 | 290 | 286 | 
-Easy Ensemble AdaBoost Classifier | 301 | 283 | 290 | | 
+Technique | Accuracy| Precision |Recall (Sensitivity)| F1 Score|
+--- | --- | --- | --- |--- |
+Naive Random Oversampling | 65%| 0.01 | 0.71 | 0.02 | 
+SMOTE Oversampling | 66% | 0.01 |0.69  |0.02  | 
+Undersampling|  52% |0.01| 0.40| 0.01 | 
+Combination| 68% | 0.01 | 0.80 | 0.02 | 
+Balanced | 78% | 0.04 | 0.67 | 0.07 | 
+Easy Ensemble|92%  |0.07  | 0.90 | 0.14 | 
