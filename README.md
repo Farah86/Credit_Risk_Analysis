@@ -7,7 +7,7 @@ i used python and scikit -learn to predict credit risk ,compare the strengths an
 # Results:
 --------------------------------------------------
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.after  employ different techniques to train and evaluate models with unbalanced classes we got this results:
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.after  employ different techniques to train and evaluate models with unbalanced classes we got this results for the high risk loans:
 
 Technique | Accuracy| Precision |Recall (Sensitivity)| F1 Score|
 --- | --- | --- | --- |--- |
@@ -17,3 +17,25 @@ Undersampling|  52% |0.01| 0.40| 0.01 |
 Combination| 68% | 0.01 | 0.80 | 0.02 | 
 Balanced | 78% | 0.04 | 0.67 | 0.07 | 
 Easy Ensemble|92%  |0.07  | 0.90 | 0.14 | 
+
+and below is the codes for the unbalanced classes
+
+![this is picture](https://github.com/Farah86/Credit_Risk_Analysis/blob/main/results/Naive.png)
+
+![this is picture](https://github.com/Farah86/Credit_Risk_Analysis/blob/main/results/SMOTE.png)
+
+![this is picture](https://github.com/Farah86/Credit_Risk_Analysis/blob/main/results/balanced.png)
+
+![this is picture](https://github.com/Farah86/Credit_Risk_Analysis/blob/main/results/combination.png)
+
+![this is picture](https://github.com/Farah86/Credit_Risk_Analysis/blob/main/results/easyensamble.png)
+
+![this is picture](https://github.com/Farah86/Credit_Risk_Analysis/blob/main/results/undersampling.png)
+
+
+-----------------------------------------------------------------------------------
+# Summary:
+
+so after doing the analyzing using the six machine learning models  we can defintly see the diffrence between the four (NAIVE, SMOTE,UNDERSAMPLING and COmbination) scores for the high risk loans and the two (BALANCED and EASY ENSEMBLE) with high accurancy scores espcially the Easy Ensemble AdaBoost Classifier with 92% showing that it is the most appropriate for assessing high-risk loans.
+
+
